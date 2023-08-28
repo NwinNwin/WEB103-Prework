@@ -40,7 +40,10 @@ const ViewCreator = ({ setData }) => {
         <div className="view-info-container">
           <h1>{item?.name}</h1>
           <p>description: {item?.description}</p>
-          <button className="social-media-btn"> 🌐 Social Media Link</button>
+          <a href={item?.url}>
+            <button className="social-media-btn"> 🌐 Social Media Link</button>
+          </a>
+
           <div className="view-buttons">
             <button className="edit-button delete-btn" onClick={handleDelete}>
               Delete

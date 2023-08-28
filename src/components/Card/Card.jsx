@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 
 const Card = ({ id, name, description, url, imageURL }) => {
   const navigate = useNavigate();
-
   return (
     <>
       <div className="card">
@@ -12,6 +11,7 @@ const Card = ({ id, name, description, url, imageURL }) => {
 
           <h2 className="card-title-text">{name}</h2>
         </div>
+
         <a href={url}>🌐 Social Media Link</a>
         <div className="card-description">
           <p>{description}</p>
@@ -21,13 +21,13 @@ const Card = ({ id, name, description, url, imageURL }) => {
             className="card-button-view"
             onClick={() => navigate(`view/${id}`)}
           >
-            View
+            🔎 View
           </button>
           <button
             className="card-button-edit"
             onClick={() => navigate(`/edit/${id}`)}
           >
-            Edit
+            ✏️ Edit
           </button>
         </div>
       </div>
