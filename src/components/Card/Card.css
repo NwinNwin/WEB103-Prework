@@ -1,0 +1,44 @@
+.card {
+  background-color: rgb(5, 5, 55);
+  border: 3px rgb(74, 74, 198) solid;
+  border-radius: 8px;
+  padding: 20px;
+  width: 400px;
+  margin: 20px 20px;
+  text-align: center;
+}
+
+.card-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 40%;
+}
+
+.card-title h2 {
+  margin: 0;
+}
+
+.card-image {
+  height: 100px;
+  border-radius: 20px;
+}
+
+.card-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 10%;
+}
+.card-button-view {
+  border: 0;
+  width: 120px;
+}
+
+.card-button-edit {
+  width: 120px;
+  background-color: rgb(83, 31, 31);
+  border: 0;
+}

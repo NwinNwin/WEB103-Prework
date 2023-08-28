@@ -1,0 +1,32 @@
+.add-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {
+  width: 30vw;
+}
+
+.input-container input,
+textarea {
+  border: 2px rgb(124, 124, 233) solid;
+}
+
+.edit-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.edit-button {
+  width: 200px;
+  margin: 5px 20px;
+  background-color: rgb(94, 94, 184);
+  border: 0;
+}
+
+.delete-btn {
+  background-color: rgb(105, 14, 14);
+}

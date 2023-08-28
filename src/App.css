@@ -1,0 +1,27 @@
+.main {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  background-image: url(https://wallpaperaccess.com/full/2490618.jpg);
+}
+.title {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.main-buttons {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+}
+
+.main-btn {
+  width: 30%;
+  margin: 0 30px;
+  background-color: rgb(29, 22, 84);
+  border: 3px rgb(83, 83, 152) solid;
+  font-weight: bold;
+}

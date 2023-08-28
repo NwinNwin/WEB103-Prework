@@ -1,0 +1,41 @@
+.view-img {
+  width: 600px;
+  margin-left: 5%;
+  border: 10px rgb(130, 130, 239) solid;
+  border-radius: 20px;
+}
+
+.view-container {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+.view-info-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgb(172, 172, 238);
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.view-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-btn {
+  background-color: rgb(14, 14, 62);
+  border: 3px solid rgb(186, 186, 227);
+  width: 300px;
+  margin-bottom: 100px;
+}
+
+.view-info-container h1 {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 90px;
+}
